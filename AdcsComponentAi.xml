@@ -1,0 +1,7 @@
+<component name="Adcs" kind="active" namespace="Spacecraft">
+    <import_port_type type="Fw::InputSerializePort"/>
+    
+    <port name="cmdIn" kind="input" data_type="Spacecraft::SubsystemCmd" max_number="1"/>
+    
+    <port name="tlmOut" kind="output" data_type="Fw::Tlm" max_number="1"/>
+</component>
